@@ -1,4 +1,4 @@
-const Order = require('../models/orderModel');
+const Order = require('../models/order');
 
 const createOrder = async (req, res) => {
   const { products, totalPrice } = req.body;

@@ -1,6 +1,6 @@
-const Product = require('../models/productModel');
+const Product = require('../models/product');
 
-const { filterQuery } = require('../utils/queryUtils');
+const { filterQuery } = require('../utils/query');
 
 const getAllProducts = async (req, res) => {
   let query = Product.find();
